@@ -78,8 +78,12 @@ buton.addEventListener('click',()=>{
         console.log("Kaybettiniz can bitti")
         result.innerText = "Try Again!!😔";
         imgCon.style.backgroundImage = "url('minions-taunting.gif')"
-        input.value = ""
+        input.value = ''
         input.focus()
+        inputCon.style.display = 'none'
+        butonCon.style.display = 'flex'
+        reStartGame.style.display = 'block'
+        startGame.style.display = 'none'
 
     }
 })
