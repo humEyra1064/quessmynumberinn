@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Yeon+Sung&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+  }
+  
+  body {
+    background: #2196f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: 100vh;
+    letter-spacing: 1px;
+  }
+  
+  header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  .input-con input{
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+
+
+  }
+  .input-con button{
+    padding: 8px 12px;
+    margin-left: 16px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 8px;
+  }
+  .input-con button:hover{
+    background-color: #fff;
+    color: #0000ff;
+
+  }
+  .img-con{
+    background-image: url("magic.png");
+  }
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
