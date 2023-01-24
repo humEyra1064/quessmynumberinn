@@ -3,9 +3,24 @@ const input = document.querySelector('.input')
 const buton = document.querySelector('.input-con button')
 const result = document.querySelector('.result')
 const imgCon = document.querySelector('.img-con')
+const startGame = document.querySelector('.btn-con button')
+const liveElement = document.querySelector('#live')
+
+
 let live =6
 console.log(buton)
 // console.log(result.innerText = 'Congratulations')
+startGame.addEventListener('click',()=>{
+    document.querySelector('.btn-con').style.display = 'none'
+    document.querySelector('.input-con').style.display = 'flex'
+    document.querySelector('.live-con').style.visibility = 'visible'
+    result.innerText = 'Write the number '
+    input.focus()
+
+
+
+
+})
 
 //1 ile 100 arasında bir sayı tut.
 console.log(randomNumber)

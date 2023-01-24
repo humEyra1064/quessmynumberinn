@@ -22,7 +22,7 @@
     align-items: center;
   }
   .input-con{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     height: 100px;
@@ -33,6 +33,7 @@
     border: none;
     outline: none;
     font-size: 24px;
+    text-align: center;
 
 
   }
@@ -68,6 +69,32 @@
   .live-con{
     margin-top: 25px;
     font-weight: 600;
+    visibility: hidden;
+    /* visibility hidden ile display none arasındaki fark none komple yok ediyor visibility görünmez yapıyor. */
+
+  }
+  .btn-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .btn-con button{
+    
+    padding: 8px 12px;
+    margin-left: 16px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    background-color: #8c34a0;
+    color: #fff;
+    border-radius: 8px;
+
+  }
+  .btn-con button:hover{
+    background-color: #fff;
+    color: #8c34a0;
 
   }
 
