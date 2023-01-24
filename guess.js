@@ -1,6 +1,5 @@
-let randomNumber = Math.ceil(Math.random()*100)
-const input = document.querySelector('.input')
-const buton = document.querySelector('.input-con button')
+const input = document.querySelector.apply('.input')
+const buton = document.querySelector.apply('.input-con button')
 let live =6
 console.log(buton)
 
